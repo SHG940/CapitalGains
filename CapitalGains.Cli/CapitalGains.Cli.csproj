@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CapitalGains.Domain\CapitalGains.Domain.csproj" />
+      <ProjectReference Include="..\CapitalGains.Managers\CapitalGains.Managers.csproj" />
+    </ItemGroup>
+
+</Project>
